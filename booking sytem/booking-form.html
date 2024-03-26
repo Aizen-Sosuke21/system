@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hotel booking form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="background">
+        <div class="booking-form">
+            <h2>Hotel Booking form</h2>
+            <form action="booking.php" method="post">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" required>
+
+                <label for="name">Email</label>
+                <input type="email" name="email" id="email" required>
+            
+            
+                <label for="room_type">Type of hotel room</label>
+                <input type="text" name="room_type" id="typw" required>
+
+                <label for="date">Day you want to book your room for</label>
+                <input type="date" name="date" id="date" required>
+            
+            
+                <label for="return_date">how long do you want to book your room for</label>
+                <input type="date" name="return_date" id="return_date" required>
+
+                <button type="submit">Book now</button>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
